@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+}
+
+.number-button.zero {
+  flex: 2;
+}
+
+.number-button,
+.operator-button {
+  border: none;
+  border-radius: 50px;
+  font-size: 35px;
+  flex: 1;
+}
+
+.number-button {
+  color: white;
+  background-color: rgb(114, 112, 112);
+
+}
+
+.operator-button {
+  color: white;
+  background-color: orange;
+}
