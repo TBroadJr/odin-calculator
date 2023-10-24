@@ -5,6 +5,14 @@
   width: 400px;
   height: 400px;
   margin: 0 auto;
+  padding: 20px;
+}
+
+.output {
+  width: 400px;
+  text-align: right;
+  font-size: 35px;
+  margin: 0;
 }
 
 .row {
@@ -18,10 +26,11 @@
 }
 
 .number-button,
-.operator-button {
+.operator-button,
+.extra-button {
   border: none;
-  border-radius: 50px;
-  font-size: 35px;
+  border-radius: 30px;
+  font-size: 30px;
   flex: 1;
 }
 
@@ -34,4 +43,9 @@
 .operator-button {
   color: white;
   background-color: orange;
+}
+
+.extra-button {
+  color: black;
+  background-color: rgb(182, 180, 180);
 }
